@@ -10,6 +10,7 @@ const closeModalBtn = document.getElementById("close-modal-btn")
 const cartCounter = document.getElementById("cart-count")
 const addressInput = document.getElementById("address")
 const addressWarn = document.getElementById("address-warn")
+const spanItem = document.getElementById("date-span")
 
 //COMANDO PARA FUNÇÃO ADICIONAR PARA LISTA CARRINHO
 let cart = [];
@@ -129,7 +130,80 @@ function removeItemCart(name){
 
         cart.splice(index, 1);
         updateCartModal();
+    }   
+}
+
+addressInput.addEventListener("input", function(event){
+    let inputValue = event.target.valeu;
+
+    // Quando digitar no input, irá desaparecer o addressWarn e border red
+    if(inputValue !== ""){
+        addressInput.classList.remove("border-red-500")
+        addressWarn.classList.add("hidden")
     }
 
+})
+
+    // Finalizar pedido
+checkoutBtn.addEventListener("click", function(){
     
+    // Se tiver fora do horário de funcionamento, vai disparar um alert ao tentar Finalizar pedido
+    const isOpen = checkRestaurantOpen();
+    if(isOpen){
+        Toastify({
+            text: "Ops o restaurante está fechado!",
+            duration: 3000,
+            close: true,
+            gravity: "top", 
+            position: "right", 
+            stopOnFocus: true, 
+            style: {
+              background: "#ef4444",
+            },
+        }).showToast();
+
+        return;
+}
+
+    // Se não preencher o endereço no input irá barrar e aparecerá o addresWarn e border red
+    if(cart.length == 0) return;
+    if(addressInput.value === ""){
+        addressWarn.classList.remove("hidden")
+        addressInput.classList.add("border-red-500")
+        return;
+    }
+
+    // Enviar pedido para API Whatsapp
+    const cartItems = cart.map((item) => {
+        return (
+            ` ${item.name} Quantidade: ${item.quantity} Preço: ${item.price} |`
+        )
+    }).join("")
+
+    const message = encodeURIComponent(cartItems)
+    const phone = "13991386066"
+
+    window.open(`https://wa.me/${phone}?${message} Endereço: ${addressInput.value}`, "_blank")
+
+    cart = [];
+    updateCartModal();
+})
+    // Criando função de horário de funcionamento
+function checkRestaurantOpen(){
+    const data = new Date();
+    const hora = data.getHours();
+    return hora >= 18 && hora < 23; //true = Restaurante está aberto nesse horário
+}
+
+    // Mudar cor quando o Restaurante está fora do horário de funcionamento
+const isOpen = checkRestaurantOpen();
+
+if(isOpen){ //Se tiver entre 18hs e 23hs:
+    spanItem.classList.remove("bg-red-500");
+    spanItem.classList.add("bg-green-600")
+
+}else{ //Se não tiver entre 18hs e 23hs:
+    spanItem.classList.remove("bg-green-600");
+    spanItem.classList.add("bg-red-500")
+
 }
