@@ -146,10 +146,10 @@ addressInput.addEventListener("input", function(event){
 
     // Finalizar pedido
 checkoutBtn.addEventListener("click", function(){
-    
+
     // Se tiver fora do horário de funcionamento, vai disparar um alert ao tentar Finalizar pedido
     const isOpen = checkRestaurantOpen();
-    if(isOpen){
+    if(!isOpen){
         Toastify({
             text: "Ops o restaurante está fechado!",
             duration: 3000,
@@ -161,7 +161,6 @@ checkoutBtn.addEventListener("click", function(){
               background: "#ef4444",
             },
         }).showToast();
-
         return;
 }
 
