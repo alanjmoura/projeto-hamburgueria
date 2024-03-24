@@ -16,9 +16,9 @@ Em conjunto, nosso projeto HTML, CSS e JavaScript representa um esforço dedicad
 
 ### ⚙️ Pré-requisitos
 
-Instale o NodeJS no Windows/macOS/Linux.
-Utilize a extensão TailwindCSS no VS Code.
-Instale o Tailwind seguindo o guia em: https://tailwindcss.com/docs/installation
+* Instale o NodeJS no Windows/macOS/Linux.
+* Utilize a extensão TailwindCSS no VS Code.
+* Instale o Tailwind seguindo o guia em: https://tailwindcss.com/docs/installation
 
 ## 📦 Tecnologias usadas:
 
