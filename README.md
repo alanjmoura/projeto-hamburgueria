@@ -1,86 +1,38 @@
 ![Logo do projeto](https://i.imgur.com/CJu5WL0.png)
 
-# Nome do Projeto
+# Cardápio Hamburgueria
 
-Uma breve descrição do projeto aqui.
+Nosso projeto de desenvolvimento web para a Hamburgueria Lanches Moura é uma representação cuidadosamente planejada e executada da nossa paixão pela comida e pela experiência do cliente. Utilizando HTML, CSS e JavaScript, criamos uma plataforma online que captura a essência única da nossa hamburgueria e oferece aos clientes uma experiência envolvente e intuitiva.
 
 ## 🔥 Introdução
 
-Coloque aqui as instruções e quais são os objetivos desse projeto, funcionalidades.
+*HTML:* Utilizamos HTML para estruturar o conteúdo do nosso site, garantindo uma organização lógica e acessível de informações. Cada página é cuidadosamente projetada para fornecer aos clientes fácil acesso a detalhes sobre nossos hambúrgueres, combos, localização e listagem de produtos.
+
+*Tailwind CSS:* O CSS foi empregado para estilizar e dar vida ao nosso site. Adotamos uma abordagem moderna e visualmente atraente, utilizando layouts responsivos para garantir uma experiência consistente em diferentes dispositivos e tamanhos de tela. Nossos estilos cuidadosamente escolhidos refletem a identidade visual da Hamburgueria Lanches Moura, proporcionando uma atmosfera acolhedora e apetitosa para os visitantes do site.
+
+*JavaScript:* A integração de JavaScript adiciona interatividade e funcionalidade dinâmica ao nosso site. Implementamos recursos como menus deslizantes, galerias de imagens interativas, adicionamento e remoção de produtos ao carrinho, listagem de produtos, verificar items no carrinho pela home, adicionar e verificar endereço, validar se o restaurante está aberto, e enviar pedido para o Whatsapp da Hamburgueria para criar uma experiência de usuário envolvente e interativa. Além disso, utilizamos JavaScript para garantir uma navegação suave e eficiente, garantindo que os clientes possam explorar facilmente nosso cardápio e realizar pedidos online.
+
+Em conjunto, nosso projeto HTML, CSS e JavaScript representa um esforço dedicado para oferecer aos clientes uma experiência online excepcional que complementa perfeitamente a deliciosa oferta de hambúrgueres da Hamburgueria Lanches Moura.
 
 ### ⚙️ Pré-requisitos
 
-Coloque aqui passo a passo que precisa para instalar o projeto e como instalá-lo.
-
-```
-Pode inserir exemplos.
-```
-
-### 🔨 Guia de instalação
-
-Explique aqui um passo a passo mostrando como deve executar para ter um ambiente de desenvolvimento em execução, desde instalar e rodar o projeto.
-
-Etapas para instalar:
-
-```
-Codigo, exemplos
-```
-Passo 2:
-```
-Codigo, exemplos
-```
-
-
-## 🛠️ Executando os testes (caso tenha testes)
-
-Explique como executar os testes automatizados para este sistema.
-
-```
-Coloque exemplos
-```
+Instale o NodeJS no Windows/macOS/Linux.
+Utilize a extensão TailwindCSS no VS Code.
+Instale o Tailwind seguindo o guia em: https://tailwindcss.com/docs/installation
 
 ## 📦 Tecnologias usadas:
 
-Coloque aqui as ferramentas que você usou para criar seu projeto, exemplo:
-
-* [React JS](https://react.dev/) - A biblioteca usada.
-* [TailwindCSS](https://tailwindcss.com/) - Biblioteca CSS. 
-
-Ou pode separar por stacks:
-
-**Front-end:**
-* [React JS](https://react.dev/)
+* [HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 * [TailwindCSS](https://tailwindcss.com/)
-
-**Back-end:**
+* [JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 * [NodeJS](https://nodejs.org/).
-* [TypeScript](https://www.typescriptlang.org/) 
-* [Mongo DB](https://mongodb.com/)
 
 ## 👷 Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início, colaboradores.
-
-* **Nome do dev** - *Função realizada* - [nome_do_dev](https://github.com/link_do_Perfil)
-* **Sujeito Programador** - *Frontend do projeto* - [@sujeitoprogramador](https://github.com/devfraga)
-
-## 📄 Licença
-
-Esse projeto está sob a licença (nome da licença) - acesse os detalhes [LICENSE.md](https://github.com/link_da_licenca).
-
-## 💭 FAQ - Perguntas frequentes
-
-#### Questão 1
-
-Resposta 1
-
-#### Questão 2
-
-Resposta 2
-
+* **Alan Moura** - *Front-end do projeto* - [@alanjmoura](https://github.com/alanjmoura)
 
 ## 💡 Expressões de gratidão
 
-* Um agradecimento publicamente.
-* Para suporte, mande um email para nome@teste.com.
+* Um agradimento á todos envolvidos.
+* Parar entrar em contato, mande um email para alanjoaquim11@hotmail.com
 
