@@ -33,6 +33,7 @@ cartModal.addEventListener("click", function(event){
     }
 })
 
+
 menu.addEventListener("click", function(event){
 
    let parentButton = event.target.closest(".add-to-cart-btn")
@@ -62,10 +63,10 @@ function addToCart(name, price){
             quantity: 1,
         })
     }
+
     updateCartModal()
+
 }
-
-
     //Atualize o  carrinho
 function updateCartModal(){
     cartItemsContainer.innerHTML = "";
@@ -120,6 +121,7 @@ function removeItemCart(name){
             updateCartModal();
             return;
         }
+
         cart.splice(index, 1);
         updateCartModal();
     }   
