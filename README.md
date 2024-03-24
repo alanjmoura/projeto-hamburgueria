@@ -23,9 +23,9 @@ Instale o Tailwind seguindo o guia em: https://tailwindcss.com/docs/installation
 ## 📦 Tecnologias usadas:
 
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-* ![TailwindCSS](https://tailwindcss.com/)
+* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-* ![NodeJS](https://nodejs.org/).
+* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## 👷 Autores
 
