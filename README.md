@@ -6,7 +6,7 @@ Nosso projeto de desenvolvimento web para a Hamburgueria Lanches Moura é uma re
 
 ## 🔥 Introdução
 
-**HTML5:** Utilizamos HTML para estruturar o conteúdo do nosso site, garantindo uma organização lógica e acessível de informações. Cada página é cuidadosamente projetada para fornecer aos clientes fácil acesso a detalhes sobre nossos hambúrgueres, combos, localização e listagem de produtos.
+**HTML5:** Utilizamos HTML para estruturar o conteúdo do nosso site, garantindo uma organização lógica e acessível de informações. Cada página é cuidadosamente projetada para fornecer aos clientes fácil acesso a detalhes sobre nossos hambúrgueres, bebidas, localização, horário de funcionamento e listagem de produtos.
 
 **Tailwind CSS:** O CSS foi empregado para estilizar e dar vida ao nosso site. Adotamos uma abordagem moderna e visualmente atraente, utilizando layouts responsivos para garantir uma experiência consistente em diferentes dispositivos e tamanhos de tela. Nossos estilos cuidadosamente escolhidos refletem a identidade visual da Hamburgueria Lanches Moura, proporcionando uma atmosfera acolhedora e apetitosa para os visitantes do site.
 
