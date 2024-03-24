@@ -1,4 +1,4 @@
-/* TODAS REFERÊNCIAS QUE PRECISAM MANIPULAR */
+// TODAS REFERÊNCIAS QUE PRECISAM MANIPULAR
 
 const menu = document.getElementById("menu")
 const cartBtn = document.getElementById("cart-btn")
@@ -12,29 +12,26 @@ const addressInput = document.getElementById("address")
 const addressWarn = document.getElementById("address-warn")
 const spanItem = document.getElementById("date-span")
 
-//COMANDO PARA FUNÇÃO ADICIONAR PARA LISTA CARRINHO
+    // COMANDO PARA FUNÇÃO ADICIONAR PARA LISTA CARRINHO
 let cart = [];
 
-//
-
-// ABRIR O MODAL MENU DO CARRINHO
+    // Abrir o modal menu do carrinho
 cartBtn.addEventListener("click",function() {
     updateCartModal();
     cartModal.style.display = "flex"
 })
 
-// FECHAR O MODAL MENU QUANDO CLICAR NO BUTTOM "FECHAR"
+    // Fechar o modal menu quando clicar no buttom "fechar"
 closeModalBtn.addEventListener("click",function () {
     cartModal.style.display = "none"
 })
 
-// FECHAR O MODAL MENU QUANDO CLICAR FORA
+    // Fechar o modal menu quando clicar fora da div mãe
 cartModal.addEventListener("click", function(event){
     if(event.target == cartModal){
         cartModal.style.display = "none"
     }
 })
-
 
 menu.addEventListener("click", function(event){
 
@@ -44,12 +41,12 @@ menu.addEventListener("click", function(event){
     const name = parentButton.getAttribute("data-name")
     const price = parseFloat(parentButton.getAttribute("data-price"))
 
-    // ADICIONAR NO CARRINHO
+    // Adicionar no carrinho
     addToCart(name, price)
    }
 })
 
-// FUNÇÃO PARA ADICIONAR NO CARRINHO
+    // Função para adicionar no carrinho
 
 function addToCart(name, price){
     const existingItem = cart.find(item => item.name === name)
@@ -65,13 +62,11 @@ function addToCart(name, price){
             quantity: 1,
         })
     }
-
     updateCartModal()
-
 }
 
 
-//Atualize o  carrinho
+    //Atualize o  carrinho
 function updateCartModal(){
     cartItemsContainer.innerHTML = "";
     let total = 0;
@@ -87,11 +82,11 @@ function updateCartModal(){
                 <p>Qtd: ${item.quantity}</p>
                 <p class="font-medium mt-2">R$ ${item.price.toFixed(2)}</p>
             </div>
-                <button class="remove-from-cart-btn" data-nam e="${item.name}">
+                <button class="remove-from-cart-btn" data-name="${item.name}">
                 Remover
                 </button>
-        </div>
-        `
+            </div>
+            `
         total += item.price * item.quantity;
 
         cartItemsContainer.appendChild(cartItemsElement)
@@ -103,17 +98,15 @@ function updateCartModal(){
     });
 
     cartCounter.innerHTML = cart.length;
-
 }
 
-// Função para remover item do carrinho
+    // Função para remover item do carrinho
 cartItemsContainer.addEventListener("click", function (event){
-    if(event.target.classList.contains("remove-from-cart-btn")){ const name = event.target.getAttribute("data-name")
+    if(event.target.classList.contains("remove-from-cart-btn")){ 
+    const name = event.target.getAttribute("data-name")
 
     removeItemCart(name);
-
     }
-
 })
 
 function removeItemCart(name){
@@ -127,7 +120,6 @@ function removeItemCart(name){
             updateCartModal();
             return;
         }
-
         cart.splice(index, 1);
         updateCartModal();
     }   
@@ -141,7 +133,6 @@ addressInput.addEventListener("input", function(event){
         addressInput.classList.remove("border-red-500")
         addressWarn.classList.add("hidden")
     }
-
 })
 
     // Finalizar pedido
