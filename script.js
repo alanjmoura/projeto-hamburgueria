@@ -151,13 +151,13 @@ checkoutBtn.addEventListener("click", function(){
             position: "right", 
             stopOnFocus: true, 
             style: {
-              background: "#ef4444",
+            background: "#ef4444",
             },
         }).showToast();
         return;
 }
 
-    // Se não preencher o endereço no input irá barrar e aparecerá o addresWarn e border red
+
     if(cart.length == 0) return;
     if(addressInput.value === ""){
         addressWarn.classList.remove("hidden")
@@ -165,7 +165,7 @@ checkoutBtn.addEventListener("click", function(){
         return;
     }
 
-    // Enviar pedido para API Whatsapp
+
     const cartItems = cart.map((item) => {
         return (
             ` ${item.name} Quantidade: ${item.quantity} Preço: ${item.price} |`
@@ -180,14 +180,14 @@ checkoutBtn.addEventListener("click", function(){
     cart = [];
     updateCartModal();
 })
-    // Criando função de horário de funcionamento
+
 function checkRestaurantOpen(){
     const data = new Date();
     const hora = data.getHours();
     return hora >= 18 && hora < 23; //true = Restaurante está aberto nesse horário
 }
 
-    // Mudar cor quando o Restaurante está fora do horário de funcionamento
+
 const isOpen = checkRestaurantOpen();
 
 if(isOpen){ //Se tiver entre 18hs e 23hs:

@@ -16,35 +16,40 @@
     <meta property="og:title" content="A melhor Hamburgueria da Praia!"/>
     <meta property="og:image" content="https://projeto-hamburgueria-teal.vercel.app/imagens/hamb-1.png"/>
     <meta property="og:description" content="Desenvolvido por Alan Moura"/>
-    <meta property="og:site_name" content="Lanches Moura"/>
+    <meta property="og:site_name" content="Pão com Carne"/>
     
     <link rel="stylesheet" href="./styles/output.css"/>
 
-    <title>A melhor Hamburgueria da Praia</title>
+    <link rel="shortcut icon" href="imagens/foto-local.jpg" type="image/x-icon">
+
+    <title>Pão com Carne</title>
 </head>
 <body>
-    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-left-bottom bg-no-repeat">
 
         <div class="w-full h-full flex flex-col justify-center items-center">
 
-            <img src="imagens/hamb-1.png" 
-            alt="Logo Dev Burguer"
-            class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"/>
+            <img src="imagens/foto-local.jpg" 
+            alt="Logo Burguer"
+            class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-300"/>
 
-            <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Lanches Moura</h1>
+            <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Pão com Carne</h1>
             
-            <span class="text-white font-medium">Av. Mallet, 120705 - Praia Grande, SP</span>
+            <span class="text-white font-medium">Rua Joaquim Floriano, 595 - Itaim Bibi, São Paulo</span>
 
-            <div class="bg-green-600 px-4 py-1 rounded-lg mt-4"
+            <div class="bg-green-700 px-4 py-1 rounded-lg mt-4"
             id="date-span">
-                <span class="text-white font-medium">Seg á Dom - 18:00 às 23:00</span>
+                <span class="text-white font-medium">Ter á Dom - 18:00 às 23:30</span>
             </div>
         </div>
     </header>
 
-    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
-        Conheça nosso menu 
+    <h2 class="text-2xl md:text-3xl text-center mt-9 mb-6">
+        Conheça nosso cardápio 
     </h2>
+    <p class="text-xl md:text-xl text-center mb-7">
+        Burguers 180g
+    </p>
 
  <!--Ínicio div Mãe-->
     <div id="menu">
@@ -53,20 +58,20 @@
 
             <!--ÍNICIO PRODUTO ITEM 01-->
             <div class="flex gap-3">
-                <img src="imagens/hamb-1.png"
+                <img src="imagens/cheese-salada.jpg"
                 alt="Burguer Smash"
-                class="w-28 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
+                class="w-27 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
 
                 <div>
-                    <p class="font-bold">Hamburguer Smash</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e maionese da casa.</p>
+                    <p class="font-bold">Cheese Salada</p>
+                    <p class="text-sm">180g de carne bovina, queijo, alface e tomate.</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3"> 
-                        <p class="font-bold text-lg">R$ 18,90</p>
+                        <p class="font-bold text-lg">R$ 28,00</p>
                         <button 
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Hamburguer Smash"
-                        data-price="18.90"
+                        data-name="Cheese Salada"
+                        data-price="28.00"
                         >
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -76,20 +81,20 @@
 
             <!--PRODUTO ITEM 02-->
             <div class="flex gap-3">
-                <img src="imagens/hamb-2.png"
-                    alt="Hamburguer Cheese Duplo"
+                <img src="imagens/meumano-chimichurri.jpg"
+                    alt="Meu Mano Chimichurri"
                     class="w-28 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
     
                 <div>
-                    <p class="font-bold">Hamburguer Cheese Duplo</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e maionese da casa.</p>
+                    <p class="font-bold">Meu Mano Chimichurri  (burguer do mês)</p>
+                    <p class="text-sm">Pão de gergelim, 180g de carne bovina, bacon, cebola e tomate grelhado, queijo prato e maionese de chimichurri.</p>
     
                     <div class="flex items-center gap-2 justify-between mt-3"> 
-                        <p class="font-bold text-lg">R$ 32,90</p>
+                        <p class="font-bold text-lg">R$ 38,00</p>
                         <button 
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Hamburguer Cheese Duplo"
-                        data-price="32.90"
+                        data-name="Meu Mano Chimichurri"
+                        data-price="38.00"
                         >
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -99,20 +104,20 @@
 
                 <!--PRODUTO ITEM 03-->
             <div class="flex gap-3">
-                <img src="imagens/hamb-3.png"
-                alt="Duplo Cheddar Bacon"
-                class="w-28 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
+                <img src="imagens/cheese-burguer.jpg"
+                alt="Cheese Burguer"
+                class="w-27 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
     
                 <div>
-                    <p class="font-bold">Duplo Cheddar Bacon</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e maionese da casa.</p>
+                    <p class="font-bold">Cheese Burguer</p>
+                    <p class="text-sm">180g de carne bovina e queijo cheedar</p>
     
                     <div class="flex items-center gap-2 justify-between mt-3"> 
-                        <p class="font-bold text-lg">R$ 35,00</p>
+                        <p class="font-bold text-lg">R$ 31,00</p>
                         <button 
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Duplo Cheddar Bacon"
-                        data-price="35.00"
+                        data-name="Cheese Burguer"
+                        data-price="31.00"
                         >
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -122,20 +127,20 @@
 
                     <!--PRODUTO ITEM 04-->
             <div class="flex gap-3">
-                <img src="imagens/hamb-4.png"
-                alt="Burguer Home"
-                class="w-28 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
+                <img src="imagens/cheese-bacon.jpg"
+                alt="Cheese Bacon"
+                class="w-30 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
     
                 <div>
-                    <p class="font-bold">Hamburguer da Casa</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de Trigou, burger 160g, queijo prato e maionese da casa.</p>
+                    <p class="font-bold">Cheese Bacon</p>
+                    <p class="text-sm">180g de carne bovina, queijo, bacon e cebola caramelizada</p>
     
                     <div class="flex items-center gap-2 justify-between mt-3"> 
-                        <p class="font-bold text-lg">R$ 39,90</p>
+                        <p class="font-bold text-lg">R$ 35,00</p>
                         <button 
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                        data-name="Hamburguer da Casa"
-                        data-price="39.90"
+                        data-name="Cheese Bacon"
+                        data-price="35.00"
                         >
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -144,18 +149,133 @@
             </div>
         </main> <!--FIM PRODUTOS-->
 
+
+
+
+
         <div class="mx-auto max-w-7xl px-2 my-2">
-            <h2 class="font-bold text-3xl">
-                Bebidas
+            <h2 class="text-3xl text-center mb-10">
+                Acompanhamentos
+            </h2>
+        </div>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" 
+        id="menu">
+    
+            <div class="flex gap-3 w-full">
+                <img src="imagens/fritas-p.jpg"
+                alt="Fritas P"
+                class="w-27 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
+    
+                <div>
+                    <p class="font-bold">Fritas P</p>
+                    <p class="text-sm">Aproximadamente 115g com cheedar e bacon</p>
+    
+                    <div class="flex items-center gap-2 justify-between mt-3"> 
+                        <p class="font-bold text-lg">R$ 15,00</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Fritas P"
+                        data-price="15.00"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex gap-3 w-full">
+                <img src="imagens/fritas-bacon.jpg"
+                alt="Fritas G"
+                class="w-27 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
+    
+                <div>
+                    <p class="font-bold">Fritas G</p>
+                    <p class="text-sm">Aproximadamente 230g com cheedar, bacon e molho branco</p>
+    
+                    <div class="flex items-center gap-2 justify-between mt-3"> 
+                        <p class="font-bold text-lg">R$ 25,00</p>
+                        <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Fritas G"
+                        data-price="25.00"
+                        >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div> 
+
+
+    <div class="mx-auto max-w-7xl px-2 my-2">
+        <h2 class="text-3xl text-center mb-10">
+            Sobremesas
+        </h2>
+    </div>
+    
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" 
+    id="menu">
+
+        <div class="flex gap-3 w-full">
+            <img src="imagens/pudim-de-leite.jpg"
+            alt="Pudim de Leite"
+            class="w-27 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
+
+            <div>
+                <p class="font-bold">Pudim de Leite</p>
+                <p class="text-sm">100g</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3"> 
+                    <p class="font-bold text-lg">R$ 13,00</p>
+                    <button 
+                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Pudim de Leite"
+                    data-price="13.00"
+                    >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-3 w-full">
+            <img src="imagens/torta-especial.jpg"
+            alt="Torta Especial"
+            class="w-28 h-28 rounded-md fover:sacle-110 hover:-rotate-3 duration-300"/>
+
+            <div>
+                <p class="font-bold">Torta Especial</p>
+                <p class="text-sm">200g</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3"> 
+                    <p class="font-bold text-lg">R$ 15,00</p>
+                    <button 
+                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Torta Especial"
+                    data-price="15.00"
+                    >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div> 
+
+    <!-- BEBIDAS -->
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="text-center text-3xl">
+                Refrigerantes
             </h2>
         </div>
         
-        <!--GRID BEBIDAS-->
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" 
         id="menu">
 
-            <!--BEBIDA ITEM-->
             <div class="flex gap-3 w-full">
                 <img src="imagens/refri-1.png"
                 alt="Coca-Cola"
@@ -166,11 +286,11 @@
                     <p class="text-sm">350ml</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3"> 
-                        <p class="font-bold text-lg">R$ 6</p>
+                        <p class="font-bold text-lg">R$ 6,00</p>
                         <button 
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
                         data-name="Coca-Cola"
-                        data-price="6"
+                        data-price="6.00"
                         >
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -178,7 +298,6 @@
                 </div>
             </div>
 
-            <!--BEBIDA ITEM 02-->
             <div class="flex gap-3 w-full">
                 <img src="imagens/refri-2.png"
                 alt="Guarana"
@@ -189,11 +308,11 @@
                     <p class="text-sm">350ml</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3"> 
-                        <p class="font-bold text-lg">R$ 5</p>
+                        <p class="font-bold text-lg">R$ 5,00</p>
                         <button 
                         class="bg-gray-900 px-5 rounded add-to-cart-btn"
                         data-name="Guarana"
-                        data-price="5"
+                        data-price="5.00"
                         >
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -203,6 +322,10 @@
         </div>  <!--FIM GRID BEBIDAS-->
     </div> <!--Fim div Mãe-->
 
+
+
+
+    
 
     <!-- MODAL MENU DO CARRINHO-->
     <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
