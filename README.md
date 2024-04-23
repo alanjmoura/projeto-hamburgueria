@@ -1,4 +1,3 @@
-![Logo](https://imgur.com/IaCFKHL).
 
 # Cardápio Hamburgueria
 
