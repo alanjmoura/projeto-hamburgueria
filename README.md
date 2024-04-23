@@ -1,8 +1,8 @@
-![Logo do projeto](https://i.imgur.com/CJu5WL0.png)
+![Logo do projeto](https://imgur.com/a/DQeK7Ez)
 
 # Cardápio Hamburgueria
 
-Nosso projeto de desenvolvimento web para a Hamburgueria Lanches Moura é uma representação cuidadosamente planejada e executada da nossa paixão pela comida e pela experiência do cliente. Utilizando HTML, CSS e JavaScript, criamos uma plataforma online que captura a essência única da nossa hamburgueria e oferece aos clientes uma experiência envolvente e intuitiva.
+Nosso projeto de desenvolvimento web para a Hamburgueria Pão com Carne é uma representação cuidadosamente planejada e executada da nossa paixão pela comida e pela experiência do cliente. Utilizando HTML, CSS e JavaScript, criamos uma plataforma online que captura a essência única da nossa hamburgueria e oferece aos clientes uma experiência envolvente e intuitiva.
 
 ## 🔥 Introdução
 
@@ -15,7 +15,7 @@ O CSS foi empregado para estilizar e dar vida ao nosso site. Adotamos uma aborda
 **JavaScript:** 
 A integração do JavaScript adiciona interatividade e funcionalidade dinâmica ao nosso site. Implementamos recursos como menus deslizantes, galerias de imagens interativas, adição e remoção de produtos ao carrinho, verificação de itens no carrinho pela home, adição e verificação de endereço, validação se o restaurante está aberto dentro do horário de funcionamento, se não, impossibilita de realizar o pedido. E, enfim, o envio do pedido para o WhatsApp da Hamburgueria. Além disso, utilizamos o JavaScript para garantir uma navegação suave e eficiente, assegurando que os clientes possam explorar facilmente nosso cardápio e fazer pedidos online para criar uma experiência envolvente e interativa.
 
-Em conjunto, nosso projeto HTML, CSS e JavaScript representa um esforço dedicado para oferecer aos clientes uma experiência online excepcional que complementa perfeitamente a deliciosa oferta de hambúrgueres da Hamburgueria Lanches Moura.
+Em conjunto, nosso projeto HTML, CSS e JavaScript representa um esforço dedicado para oferecer aos clientes uma experiência online excepcional que complementa perfeitamente a deliciosa oferta de hambúrgueres do Pão com Carne.
 
 ### ⚙️ Pré-requisitos
 
