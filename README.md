@@ -37,6 +37,6 @@ Em conjunto, nosso projeto HTML, CSS e JavaScript representa um esforço dedicad
 
 ## 💡 Expressões de gratidão
 
-* Um agradimento a todos envolvidos.
+* Um agradecimento a todos envolvidos.
 * Parar entrar em contato, mande um email para alanjoaquim11@hotmail.com
 
