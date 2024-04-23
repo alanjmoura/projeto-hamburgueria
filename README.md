@@ -1,4 +1,4 @@
-![Logo do projeto](https://imgur.com/IaCFKHL)
+![Logo](https://imgur.com/IaCFKHL).
 
 # Cardápio Hamburgueria
 
